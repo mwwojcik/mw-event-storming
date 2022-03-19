@@ -1,14 +1,20 @@
 # Event Storming
+
 ## Materiały do przeanalizowania 
 - 5 mitów dookoła EventStormingu - https://youtu.be/16j70vlOg5s
 - Strategiczne DDD - słabe strony - Łukasz Szydło 
 - 26. O perspektywach Being, Behaving, Becoming | Better Software Design
 - 25. O modelu i modelowaniu ze Sławkiem Sobótką | Better Software Design
-    
+
+## Mity na temat ES
+- ES jest prosty
+- ES jest uniwersalny i da się go stosować w każdej domenie
+- Instrukcja ES -jej zastosowanie doprowadzi nas do celu 
+
 ## Big Picture
 ### Fazy Big Picture
 Składa się na nią kilka faz:
-
+- Definiowanie celu
 - Chaotyczna eksploracja
 - Oś czasu
 - Identyfiacja aktorów i systemów emitujących zdarzenia
@@ -20,13 +26,45 @@ Składa się na nią kilka faz:
 **TODO: https://bettersoftwaredesign.pl/episodes/3**
 **3. O różnych odmianach Ubiquitous Language z Łukaszem Szydło**
 
-TODO MWO :
+### Rodzaje zdarzeń
+
+![Klasyfikacja zdarzeń](img/klasyfikacja_zdarzen.png)
+
 
 ## Gdy sesja "nie idzie"
 
 **TODO - analiza DNA CONF - Strategiczne DDD - słabe strony - Łukasz Szydło**
 
-### Ekspert domenowy a użytkownik systemu //TODO
+### Ekspert domenowy a użytkownik systemu
+
+Często mylimy rolę eksperta domenowego od roli wykonawcy procesu.
+W przypadku wykonawcy procesu , nie będącego ekspertem następujące zdarzenia
+
+![Niefektywne zdarzenia](img/nieefektywne-zdarzenia.png)
+
+stanowią jego istotę. 
+
+W przypadku prawdziwego eksperta tak nie jest. Ekspert jest w stanie stwierdzić co się dzieje pod spodem.
+
+### Nieskuteczność sesji
+
+Sesja jest kosztem , czas wielu ludzi kosztuje, jeśli w jej wyniku powstaną zdarzenia typu
+
+![Niefektywne zdarzenia](img/nieefektywne-zdarzenia.png)
+
+to jest ona bardzo nieefektywna. Zdarzenia są nic nie wnoszące, nie mówią o tym jak przebiega proces.
+Są one szumem.
+
+Osiągnięto efekt odwrotny od zamierzonego. 
+
+### Zastosowanie ES do rozwiązania nieadekwatnego problemu
+
+W przypadku :
+- domen płytkich
+- problemów algorytmicznych
+- problemów związanych z obróbką danych
+
+Nie należy stosować ES. Cały ceremoniał będzie niepotrzebnym kosztem. 
 
 ### Problemy z chronologią
 
