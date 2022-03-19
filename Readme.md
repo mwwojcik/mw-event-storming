@@ -3,14 +3,13 @@
 ## Materiały do przeanalizowania 
 - 5 mitów dookoła EventStormingu - https://youtu.be/16j70vlOg5s
 - Strategiczne DDD - słabe strony - Łukasz Szydło 
-- 26. O perspektywach Being, Behaving, Becoming | Better Software Design
-- 25. O modelu i modelowaniu ze Sławkiem Sobótką | Better Software Design
-      ' Mariusz Wojcik Today at 9:16 AM
-      @[Team] Mariusz Gil w prelekcji “5 minut dookoła eventstormingu” w pewnym momencie mówisz że należy sięgnąć do “Katalogu Quick Win Questions” , czy zechciałbyś przybliżyć mi trochę co to dla Ciebie jest ? Może zdradziłbyś jak wygląda Twój katalog - chociaż w zarysie :wink: ? (edited)
-      3 replies
-
-Mariusz Wojcik  40 minutes ago
-chodzi mi o ten moment: https://youtu.be/16j70vlOg5s?t=2237
+- (26.) O perspektywach Being, Behaving, Becoming | Better Software Design
+- (25.) O modelu i modelowaniu ze Sławkiem Sobótką | Better Software Design
+- Umiejętności miękkie Storming Troppera https://youtu.be/0uGzB8xp2ag
+- Katalog Quick Win Question
+```
+' Mariusz Wojcik Today at 9:16 AM
+@[Team] Mariusz Gil w prelekcji “5 minut dookoła eventstormingu” w pewnym momencie mówisz że należy sięgnąć do “Katalogu Quick Win Questions” , czy zechciałbyś przybliżyć mi trochę co to dla Ciebie jest ? Może zdradziłbyś jak wygląda Twój katalog - chociaż w zarysie :wink: ? (edited)
 Jak zacząć budowanie sobie takiego katalogu pytań pomocniczych ? Czy to tylko z doświadczenia ?
 
 [Team] Mariusz Gil  24 minutes ago
@@ -22,9 +21,7 @@ Trochę takich pytań będzie w module 9 LF, a pojawiają się też w kilku odci
 cleanlanguage.co.uk
 Polish Clean Questions
 Clean Language of David Grove, translated into Polish by Bozena Pie&#347;kiewicz The Centre for Clean Language and Symbolic Modelling
-Better Software DesignBetter Software Design
-26. O perspektywach Being, Behaving, Becoming | Better Software Design
-25. O modelu i modelowaniu ze Sławkiem Sobótką | Better Software Design
+```
 
 ## Mity na temat ES
 - ES jest prosty
