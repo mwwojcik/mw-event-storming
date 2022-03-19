@@ -1,4 +1,10 @@
 # Event Storming
+## Materiały do przeanalizowania 
+- 5 mitów dookoła EventStormingu - https://youtu.be/16j70vlOg5s
+- Strategiczne DDD - słabe strony - Łukasz Szydło 
+- 26. O perspektywach Being, Behaving, Becoming | Better Software Design
+- 25. O modelu i modelowaniu ze Sławkiem Sobótką | Better Software Design
+    
 ## Big Picture
 ### Fazy Big Picture
 Składa się na nią kilka faz:
