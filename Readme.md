@@ -72,8 +72,6 @@ Clean Language of David Grove, translated into Polish by Bozena Pie&#347;kiewicz
 
 ## Gdy sesja "nie idzie" - czyli czego się wystrzegać
 
-**TODO - analiza DNA CONF - Strategiczne DDD - słabe strony - Łukasz Szydło**
-
 ### Sesja staje się nieprzewidywalna, improwizowana
 
 Może się zdarzyć że na warsztat zostają zaproszone osoby które nie powinny być zaproszone, ponieważ modelowany fragment
@@ -102,6 +100,46 @@ Wprowadzono dane"
 to jest ona bardzo nieefektywna. Zdarzenia są nic nie wnoszące, nie mówią o tym jak przebiega proces. Są one szumem.
 
 Osiągnięto efekt odwrotny od zamierzonego. Poniesiono koszt, a nie uzyskano spodziewanego wyniku.
+
+Ten sam system widziany z perspektywy użytkownika i eksperta domenowego
+
+![Niefektywne zdarzenia](img/ekspert_vs_uzytkownik.png)
+
+**Scenariusz 1:  Książkowa zawierucha**
+Nowy projekt, branża wydawnicza, mamy proces wydawania książki, był robiony w excelu. Zapraszamy przedstawicieli
+wielu działów. Każdy przykleja karteczki. Pojwia się zalew karteczek - prawdziwa eksplozja. Domena wydaje się bardzo 
+skomplikowana, a w rzeczywistości czujemy że jest prosta. Domena się nie ujawniła.
+
+**Scenariusz 2: Rekrutacyjny flow**
+Branża outsourcingowa. Projekt podobny do pierwszego, przepisywany z excela do aplikacji, zaproszeni ludzie z 
+biznesu. Sesja przebiega zupełnie inaczej ale zupełnie inna dynamika. Eventy prawidłowe, pojawiają się 
+nazwy, subdomeny. W firmie były już procesy, osoby zaproszone znały je i były jednocześnie użytkownikami systemu. 
+Domena była ewidentna.
+
+**Scenariusz 3: jeden analityk i programiści** 
+Nie było nikogo z biznesu. Storming wyszedł dobrze.  Analityk spędził wystarczająco dużo czasu na analizie i 
+naprawdę znał biznes. Jeśli analityk jest osobą która zna domenę to może spokojnie zastępować biznes. Problem 
+jest wtedy gdy analityk jest proxy do biznesu, nie dokonuje destylacji wiedzy, wtedy osiąga się stan podobny do 
+scenariusza 1 ale ciężej jest to zidentyfikować bo wydaje nam się że mamy do czynienia z ekspertem.
+
+Jaka jest różnica pomiędzy tymi sytuacjami ? Wszędzie obowiązywały te same reguły a wyniki bardzo różne. 
+
+Okazało się że w pierwszym scenariuszu na spotkaniu byli użytkownicy systemu a nie eksperci domenowi. Były trzy 
+działy które robiły to samo ale w różny sposób
+
+Czasem zespół techniczny jest dobrym ekspertem domenowym.
+
+Przykład :
+
+1. Opis działania aplikacji do gry w bilard przez użytkownika : mnóstwo przykładów brzegowych, gdy bila uderzy tu to 
+   odbije się i uderza w inne miejsce, jeśli trafi w następną bilę to robi się coś innego
+2. Opis działania aplikacji do gry w bilard przez eksperta : fizyka zjawiska, reguła uniwersalna, kąt odbicia równy 
+   jest kątowi padania
+
+Aplikacja napisana według pierwszego scenariusza byłaby bardzo rozbudowana, niepotrzebnie skomplikowana, pełna ifów 
+obsługujących warunki brzegowe.
+
+**Jeśli na spotkaniu mamy tylko użytkowników to my musimy stać się ekspertem domenowym**
 
 **Jak przekonać ekspertów do komunikowania się zdarzeniami domenowymi?**
 
