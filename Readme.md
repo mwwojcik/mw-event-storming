@@ -34,6 +34,19 @@ Składa się na nią kilka faz:
 **TODO: https://bettersoftwaredesign.pl/episodes/3**
 **3. O różnych odmianach Ubiquitous Language z Łukaszem Szydło**
 
+### Zmiana stanu vs kolejny etap
+
+Należy zwrócić uwagę by odkrywać istotne procesy biznesowe i nie mylić ich z kolejnymi krokami przetwarzania.
+
+#### Proces domenowy
+
+![Klasyfikacja zdarzeń](img/proces-istotna-zmiana.png)
+
+#### Rejestracja kolejnych kroków
+
+![Klasyfikacja zdarzeń](img/kroki-przetwarzania.png)
+
+
 ### Rodzaje zdarzeń
 
 ![Klasyfikacja zdarzeń](img/klasyfikacja_zdarzen.png)
